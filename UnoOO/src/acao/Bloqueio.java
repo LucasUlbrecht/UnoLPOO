@@ -1,7 +1,7 @@
 package acao;
 
 /**
- * @author Lucas Ulbrecht
+ * @author Lucas Patrizi
  * @version 1.0
  */
 import base.Roda;
