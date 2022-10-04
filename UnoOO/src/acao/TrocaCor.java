@@ -1,16 +1,22 @@
 package acao;
-/**
- * @author Felippe
- * @version 1.0
- * 
- * - O codigo esta atrasado pois faltou Luz na casa do Vinicius, porem ele fara o quanto antes -
- */
-public class TrocaCor extends Acao {
-  public TrocaCor() {
-  }
+import base.Jogada;
 
-  public String mudarCor(String cor) {
-    //Jogada.mudarCor();
-    //altera para a cor desejada
+/**
+ * @author Felippe, Fernando, Lucas Patrizi, Pedro Nicolette, Roberto, Vinicius 
+ * @version 1.0
+ * - O autor original dessa parte seria o Vinicius, porem  faltou Luz na casa dele, assim não conseguiu efetivar as mudanças  -
+ * - Logo, o grupo adianta sua parte para nao atrasar a correção/Cod. dos outros -
+ * - [Ninguem saira prejudicado, pois todo passo a passo sera explicado para o membro faltante] -
+ */
+
+public class TrocaCor extends Acao {
+  /**
+   * @deprecated 
+   * @param jogada representa objeto do tipo referente a classe Jogada
+   * Na função "realizar", supostamente deve utilizar "jogada.mudarCor", de forma que altere para a cor desejada  
+   */
+
+  public void realizar(Jogada jogada) {
+    jogada.mudarCor();
   }
 }
