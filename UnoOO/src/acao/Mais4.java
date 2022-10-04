@@ -20,7 +20,7 @@ public class Mais4 extends Acao {
   public void realizar(Roda roda, Jogada jogada) {
     for(int cont = 0; cont<4 ; cont++){
     roda.comprarCarta(roda.proximoJogador());
-    jogada.mudarCor();
   }
+  jogada.mudarCor();
   roda.pular();
 }
