@@ -1,14 +1,14 @@
 package acao;
+
 import base.Roda;
 import base.Jogada;
+
 /**
  * @author RobertoFortes;
  * @version 1.0;
  */
 
 public class Mais4 extends Acao {
-  public Mais4() {
-  }
 /**
  * @deprecated
  * @param roda representa objeto do tipo referente a classe Roda que funciona de forma cíclica;
