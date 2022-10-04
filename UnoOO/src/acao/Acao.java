@@ -1,7 +1,6 @@
 package acao;
 
 import base.Roda;
-import base.Jogada;
 
 abstract class Acao {
   /**
@@ -13,7 +12,6 @@ abstract class Acao {
 }
 
 /**
- * @deprecated
  * @author Fernando Favaro Moreira
  * @since 03/10/2022
  * @version 1.0

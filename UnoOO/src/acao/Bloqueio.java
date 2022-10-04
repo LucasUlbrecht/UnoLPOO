@@ -14,6 +14,7 @@ public class Bloqueio extends Acao {
    * @return
    *         Pula a jogada de um jogador, usando a função pular da roda
    *         (roda.pular()), para o proximo jogador
+   * 
    */
   public void realizar(Roda roda) {
     roda.pular();
