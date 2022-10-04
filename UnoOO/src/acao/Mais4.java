@@ -7,8 +7,6 @@ import base.Jogada;
  */
 
 public class Mais4 extends Acao {
-  public Mais4() {
-  }
 /**
  * @deprecated
  * @param roda representa objeto do tipo referente a classe Roda que funciona de forma cíclica;
@@ -20,7 +18,8 @@ public class Mais4 extends Acao {
   public void realizar(Roda roda, Jogada jogada) {
     for(int cont = 0; cont<4 ; cont++){
     roda.comprarCarta(roda.proximoJogador());
-    roda.pular();
-    jogada.mudarCor();
   }
+  jogada.mudarCor();
+  roda.pular();
+}
 }
