@@ -3,6 +3,8 @@ package acao;
 /**
  * @author Lucas Patrizi
  * @version 1.0
+ * @since 03/10/22
+ * @see Roda
  */
 import base.Roda;
 
