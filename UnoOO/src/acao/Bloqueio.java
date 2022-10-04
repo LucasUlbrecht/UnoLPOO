@@ -1,14 +1,19 @@
-package Acao;
+package acao;
+
+/**
+ * @author Lucas Ulbrecht
+ * @version 1.0
+ */
 import base.Roda;
 
 public class Bloqueio extends Acao {
-  public Bloqueio() {
-    
-  }
-
-  public void block(Roda roda) {
+  /**
+   * @param roda - é a roda usada no próprio jogo
+   * @return
+   *         Pula a jogada de um jogador, usando a função pular da roda
+   *         (roda.pular()), para o proximo jogador
+   */
+  public void realizar(Roda roda) {
     roda.pular();
-    //Identifica o próximo jogador e não permite sua jogada, logo, passando para o próximo jogador
-    //pode ser cumulativo
   }
 }
