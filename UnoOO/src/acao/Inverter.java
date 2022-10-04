@@ -1,14 +1,26 @@
 package acao;
 import base.Roda;
+/**
+  * @author Pedro;
+  * @version 1.0;
+  
+
+*/
 
 public class Inverter extends Acao {
   public Inverter() {
   }
 
-  public void inversao(Roda roda) {
+  public void realizar(Roda roda) {
     roda.inverter();
-    //recebe o sentido e inverte, retornando a jogada para o jogador anterior
-    //pode ser cumulativo, invertendo-se varias vezes o sentido e passando a jogada
-    //para o jogador resultante das constantes trocas
+  /**
+    * @deprecated;
+    * Função para inverter o sentido do jogo;
+    * @param Roda representa objeto referente a classe Roda;
+    * recebe o sentido e inverte, retornando a jogada para o jogador anterior;
+    * pode ser cumulativo, invertendo-se varias vezes o sentido e passando a jogada
+    * para o jogador resultante das constantes trocas;
+    * @return 
+  */
   }
 }
