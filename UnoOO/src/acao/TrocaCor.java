@@ -1,6 +1,10 @@
 package acao;
-//import base.Jogada;
-
+/**
+ * @author Felippe
+ * @version 1.0
+ * 
+ * - O codigo esta atrasado pois faltou Luz na casa do Vinicius, porem ele fara o quanto antes -
+ */
 public class TrocaCor extends Acao {
   public TrocaCor() {
   }
