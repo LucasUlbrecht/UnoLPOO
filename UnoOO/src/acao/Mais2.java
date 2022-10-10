@@ -1,9 +1,9 @@
 package acao;
 import base.Roda;
+import base.Jogada;
 /**
  * @author Felippe
  * @Version 1.0
- * 
  */
 
 public class Mais2 extends Acao {
@@ -19,9 +19,16 @@ public class Mais2 extends Acao {
     for(int cont = 0; cont<2 ; cont++){
       roda.comprarCarta(roda.proximoJogador());
     }
-    
-  roda.pular(); 
-
+    roda.pular(); 
+  }
+  public void realizar(Roda roda, int n) {
+    return;
+  }
+  public void realizar (Jogada jogada) {
+    return;
+  }
+  public void realizar (Jogada jogada, Roda roda, int n) {
+    return;
   }
  
 }

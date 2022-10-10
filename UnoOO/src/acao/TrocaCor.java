@@ -1,6 +1,6 @@
 package acao;
+import base.Roda;
 import base.Jogada;
-
 /**
  * @author Felippe, Fernando, Lucas Patrizi, Pedro Nicolette, Roberto, Vinicius 
  * @version 1.0
@@ -18,5 +18,14 @@ public class TrocaCor extends Acao {
 
   public void realizar(Jogada jogada) {
     jogada.mudarCor();
+  }
+  public void realizar (Roda roda) {
+    return;
+  }
+  public void realizar(Roda roda, int n) {
+    return;
+  }
+  public void realizar (Jogada jogada, Roda roda, int n) {
+    return;
   }
 }

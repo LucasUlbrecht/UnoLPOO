@@ -20,19 +20,27 @@ public class Mais4 extends Acao {
  */
 
   public void realizar(Roda roda, Jogada jogada, int n) {
-  jogada.mudarCor(); /**  jogador 1 (ultimo a jogar a carta referente ao "Mais4") // espera-se mudança (jogada/jogador) */
-  int x;
-  x = roda.proximoJogador();  /** jogador 1 -> jogador 2 // a função retorna inteiro que identifica o jogador */
-  
+    jogada.mudarCor(); /**  jogador 1 (ultimo a jogar a carta referente ao "Mais4") // espera-se mudança (jogada/jogador) */
+    int x;
+    x = roda.proximoJogador();  /** jogador 1 -> jogador 2 // a função retorna inteiro que identifica o jogador */
     for(int cont = 0; cont < n*4 ; cont++){
       roda.comprarCarta(roda.jogadores[x]); /** jogador 2 recebe cartas // acessa-se o jogador correspondente no vetor */
     }
-  roda.pular(); /**  jogador 2 -> jogador 3 */
+    roda.pular(); /**  jogador 2 -> jogador 3 */
   }
-/**
- * foi adicionada a função getAcao tipo String;
- */
+  /**
+  * foi adicionada a função getAcao tipo String;
+  */
   public String getAcao(){
     return "Mais4";
+  }
+  public void realizar (Roda roda) {
+    return;
+  }
+  public void realizar (Jogada jogada) {
+    return;
+  }
+  public void realizar(Roda roda, int n) {
+    return;
   }
 }

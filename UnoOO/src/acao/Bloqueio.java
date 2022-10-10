@@ -1,12 +1,12 @@
 package acao;
-
+import base.Roda;
+import base.Jogada;
 /**
  * @author Lucas Patrizi
  * @version 2.0
  * @since 03/10/22
  * @see Roda
  */
-import base.Roda;
 
 public class Bloqueio extends Acao {
   /**
@@ -28,6 +28,12 @@ public class Bloqueio extends Acao {
    * @param n
    */
   public void realizar(Roda roda, int n) {
+    return;
+  }
+  public void realizar (Jogada jogada) {
+    return;
+  }
+  public void realizar (Jogada jogada, Roda roda, int n) {
     return;
   }
 
