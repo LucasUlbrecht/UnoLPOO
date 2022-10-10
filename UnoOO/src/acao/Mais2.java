@@ -23,4 +23,5 @@ public class Mais2 extends Acao {
   roda.pular(); 
 
   }
+ 
 }
