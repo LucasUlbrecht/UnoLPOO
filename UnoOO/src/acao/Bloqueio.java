@@ -2,7 +2,7 @@ package acao;
 
 /**
  * @author Lucas Patrizi
- * @version 1.0
+ * @version 2.0
  * @since 03/10/22
  * @see Roda
  */
@@ -21,6 +21,12 @@ public class Bloqueio extends Acao {
     roda.pular();
   }
 
+  /**
+   * Função realizar para cartas de compras (não faz nada em Bloqueio);
+   * 
+   * @param roda
+   * @param n
+   */
   public void realizar(Roda roda, int n) {
     return;
   }
