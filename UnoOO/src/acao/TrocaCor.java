@@ -19,6 +19,9 @@ public class TrocaCor extends Acao {
   public void realizar(Jogada jogada) {
     jogada.mudarCor();
   }
+  public String getAcao(){
+    return "TrocaCor";
+  }
   public void realizar (Roda roda) {
     return;
   }
@@ -27,5 +30,5 @@ public class TrocaCor extends Acao {
   }
   public void realizar (Jogada jogada, Roda roda, int n) {
     return;
-  }aaa
+  }
 }
