@@ -27,5 +27,5 @@ public class TrocaCor extends Acao {
   }
   public void realizar (Jogada jogada, Roda roda, int n) {
     return;
-  }
+  }aaa
 }
