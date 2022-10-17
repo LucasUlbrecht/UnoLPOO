@@ -2,8 +2,8 @@ package acao;
 import base.Roda;
 import base.Jogada;
 /**
- * @author Felippe, Fernando, Lucas Patrizi, Pedro Nicolette, Roberto, Vinicius 
- * @version 1.0
+ * @author Vinicius 
+ * @version 2.0
  * - O autor original dessa parte seria o Vinicius, porem  faltou Luz na casa dele, assim não conseguiu efetivar as mudanças  -
  * - Logo, o grupo adianta sua parte para nao atrasar a correção/Cod. dos outros -
  * - [Ninguem saira prejudicado, pois todo passo a passo sera explicado para o membro faltante] -
