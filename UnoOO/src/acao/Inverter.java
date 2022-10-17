@@ -27,4 +27,11 @@ public class Inverter extends Acao {
   public void realizar (Jogada jogada, Roda roda, int n) {
     return;
   }
+  /**
+  * Função para retornar qual a ação da carta
+  */
+  public String getAcao(){
+    return "Inverter";
+  }
+
 }
