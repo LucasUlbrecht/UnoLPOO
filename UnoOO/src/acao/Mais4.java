@@ -10,17 +10,15 @@ import base.Jogada;
 public class Mais4 extends Acao {
 /**
  * @deprecated
- * @param roda representa objeto do tipo referente a classe Roda que funciona de forma cíclica;
- * @param jogada representa objeto do tipo referente a classe Jogada;
- * @param n representa o inteiro que indica a quantidade de vezes que a carta Mais4 foi acumulada/repetida;
+ * @param roda representa objeto do tipo referente a classe Roda que funciona de forma cíclica
+ * @param jogada representa objeto do tipo referente a classe Jogada
+ * @param n representa o inteiro que indica a quantidade de vezes que a carta Mais4 foi acumulada/repetida
  */
 
-/**
- * Falta buscar conhecimento dos outros integrantes para implementar a troca de cor
- * A primeira chamada de roda.proximoJogador() significa a passagem de Acao para o proximo jogador;
- * Ao final, chama-se a função "roda.pular()" para passar-se a vez para o jogador após o que comprou as cartas;
- */
 
+ /**
+ * Resumo: O primeiro jogador muda a cor, o segundo compra as cartas e se passa a jogada para um terceiro jogador
+ */
   public void realizar(Roda roda, Jogada jogada, int n) {
     jogada.mudarCor(); /** Precisamos conversar com outros integrantes para realizar mudanças nessa etapa */
     int x;
@@ -32,7 +30,7 @@ public class Mais4 extends Acao {
   }
 
   /**
-  * foi adicionada a função getAcao tipo String;
+  * foi adicionada a função getAcao tipo String
   */
   public String getAcao(){
     return "Mais4";
