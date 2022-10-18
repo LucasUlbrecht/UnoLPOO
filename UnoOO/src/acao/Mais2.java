@@ -15,10 +15,12 @@ public class Mais2 extends Acao {
  * 
  */
 
-  public void relizar(Roda roda) { 
-    for(int cont = 0; cont<2 ; cont++){
-      roda.comprarCarta(roda.proximoJogador());
-    }
+  public String getAcao(){
+    return "Mais2";
+  }
+
+  public void relizar(Roda roda, int n) { 
+    roda.comprar(n, roda.jogadores[roda.proximoJogador]);
     roda.pular(); 
   }
   public void realizar(Roda roda, int n) {
