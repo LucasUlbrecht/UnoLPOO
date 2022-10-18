@@ -2,7 +2,7 @@ package acao;
 import base.Roda;
 /**
   * @author Pedro;
-  * @version 1.0;
+  * @version 2.0;
   */
 
 public class Inverter extends Acao {
@@ -11,8 +11,6 @@ public class Inverter extends Acao {
   * Função para inverter o sentido do jogo;
   * @param Roda representa objeto referente a classe Roda;
   * recebe o sentido e inverte, retornando a jogada para o jogador anterior;
-  * pode ser cumulativo, invertendo-se varias vezes o sentido e passando a jogada
-  * para o jogador resultante das constantes trocas; 
   */
 
   public void realizar(Roda roda) {
@@ -27,4 +25,11 @@ public class Inverter extends Acao {
   public void realizar (Jogada jogada, Roda roda, int n) {
     return;
   }
+  /**
+  * Função para retornar qual a ação da carta
+  */
+  public String getAcao(){
+    return "Inverter";
+  }
+
 }
