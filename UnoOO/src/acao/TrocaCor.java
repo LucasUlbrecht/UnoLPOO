@@ -20,12 +20,15 @@ public class TrocaCor extends Acao {
     return "TrocaCor";
   }
   public void realizar (Roda roda) {
+    System.out.println("Você está utilizando os parâmetros errados: usou roda ao inves de jogada para troca cor");
     return;
   }
   public void realizar(Roda roda, int n) {
+    System.out.println("Você está utilizando os parâmetros errados: colocou inteiro de acumulo e roda, também esqueceu de incluir jogada para troca cor");
     return;
   }
   public void realizar (Jogada jogada, Roda roda, int n) {
+    System.out.println("Você está utilizando os parâmetros errados: colocou inteiro de acumulo e roda para troca cor");
     return;
   }
 }
