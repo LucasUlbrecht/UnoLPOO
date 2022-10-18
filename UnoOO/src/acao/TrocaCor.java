@@ -17,10 +17,10 @@ public class TrocaCor extends Acao {
    */
 
   public void realizar(Jogada jogada) {
-    jogada.mudarCor();
+    jogada.mudarCor(); 
   }
   public String getAcao(){
-    return "TrocaCor";
+    return "TrocaCor"; /** para representar que a ação 'TrocaCor' foi realizada */
   }
   public void realizar (Roda roda) {
     return;
