@@ -20,6 +20,10 @@ public class Mais4 extends Acao {
  * A primeira chamada de roda.proximoJogador() significa a passagem de Acao para o proximo jogador;
  * Ao final, chama-se a função "roda.pular()" para passar-se a vez para o jogador após o que comprou as cartas;
  */
+  
+  public String getAcao(){
+    return "Mais4";
+  }
 
   public void realizar(Roda roda, Jogada jogada, int n) {
     jogada.mudarCor(); /** Precisamos conversar com outros integrantes para realizar mudanças nessa etapa */
@@ -34,6 +38,7 @@ public class Mais4 extends Acao {
   /**
   * foi adicionada a função getAcao tipo String;
   */
+<<<<<<< HEAD
   public String getAcao(){
     return "Mais4";
   }
@@ -41,7 +46,15 @@ public class Mais4 extends Acao {
   /**
    * @param roda
    */
+=======
+  
+
+  /**
+  Todas as funções a partir deste comentário são para evitar bugs e alertar sobre uso errado da cartaAção
+  */
+>>>>>>> c7e343bdb56ff406879cfb441ce9abf7d8bdf560
   public void realizar (Roda roda) {
+    System.out.println("Você está utilizando os parâmetros errados");
     return;
   }
 
@@ -49,6 +62,7 @@ public class Mais4 extends Acao {
    * @param jogada
    */
   public void realizar (Jogada jogada) {
+    System.out.println("Você está utilizando os parâmetros errados");
     return;
   }
 
@@ -57,6 +71,7 @@ public class Mais4 extends Acao {
    * @param n
    */
   public void realizar(Roda roda, int n) {
+    System.out.println("Você está utilizando os parâmetros errados");
     return;
   }
 
