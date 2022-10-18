@@ -37,13 +37,12 @@ public class Mais4 extends Acao {
   }
 
   /**
-   * @param roda
-   */
-  
-
-  /**
   Todas as funções a partir deste comentário são para evitar bugs e alertar sobre uso errado da cartaAção
   */
+
+    /**
+   * @param roda
+   */
   public void realizar (Roda roda) {
     System.out.println("Você está utilizando os parâmetros errados");
     return;
@@ -65,7 +64,12 @@ public class Mais4 extends Acao {
     System.out.println("Você está utilizando os parâmetros errados");
     return;
   }
-
+  
+  /**
+   * @param jogada
+   * @param roda
+   * @param n
+   */
   void realizar(Jogada jogada, Roda roda, int n) {
     
   }
