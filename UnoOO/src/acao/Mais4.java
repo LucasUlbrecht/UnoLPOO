@@ -3,7 +3,7 @@ import base.Roda;
 /**
  * @author RobertoFortes
  * @since 17/10/2022
- * @version 3.0
+ * @version 4.0
  */
 
 public class Mais4 extends Acao {
