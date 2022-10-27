@@ -15,5 +15,5 @@ abstract class Acao {
  * @author Fernando Favaro Moreira
  * @since 26/10/2022
  * @version 4.0
- * @see Roda, Jogada
+ * @see Roda
  */

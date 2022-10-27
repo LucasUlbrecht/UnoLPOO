@@ -1,6 +1,5 @@
 package acao;
 import base.Roda;
-import base.Jogada;
 /**
  * @author Lucas Patrizi
  * @version 3.0
